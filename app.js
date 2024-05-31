@@ -52,7 +52,7 @@ document.write("Score of" + " " + studentsName[2] + " " + "is" + " " + obtainedM
 
 // question 9
 document.write("<h2>Question no 09</h2>");
-let colorName = ["Red " , " Blue " , " Green " , " Black "];
+let colorName = ["Red" , "Blue" , "Green" , "Black"];
 document.write(colorName + "<br>");
 
 // a)
