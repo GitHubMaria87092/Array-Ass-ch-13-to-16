@@ -58,18 +58,18 @@ document.write(colorName + "<br>");
 // a)
 let colorAddbeginning = prompt("Enter Color You Want to add at beginning");
 colorName.unshift(colorAddbeginning);
-document.write("a) add your color at biginning" + colorName + "<br>")
+document.write("a) Add your color at biginning" + colorName + "<br>")
 
 // b)
 let colorAddEnd = prompt("Enter Color You Want to add at End");
 colorName.push(colorAddEnd);
-document.write("b) add your color at End " + colorName + "<br>");
+document.write("b) Add your color at End " + colorName + "<br>");
 
 // c)
 let colorAddbeginning1 = prompt("Enter First Color You Want to add at beginning");
 let colorAddbeginning2 = prompt("Enter Second Color You Want to add at beginning");
 colorName.unshift(colorAddbeginning1 , colorAddbeginning2)
-document.write("c) add your two color at biginning " + colorName + "<br>")
+document.write("c) Add your two color at biginning " + colorName + "<br>")
 
 // d)
 colorName.shift()
